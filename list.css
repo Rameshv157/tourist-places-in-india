@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://w.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg?h=900&r=0.5");
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media (orientation: landscape) {
+    .bg-container {
+        background-image: url("https://img.freepik.com/free-photo/two-traditional-mexican-sugar-skulls-with-floral-ornament-pink-background_1057-36959.jpg?w=1060");
+        background-size: cover;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+}
+
+#navbar {
+    color: white;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+#navbarIcon {
+    background-color: white;
+}
+
+#color {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+#color:hover {
+    color: black;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: warp;
+}
+
+.card-img {
+    width: 100px;
+    height: 200px;
+}
+
+.card-title-css {
+    font-size: 15px;
+
+}
+
+
+.card-text-css {
+    font-size: 10px;
+    
+}
+
+.card-button {
+    font-size: 15px;
+}
+
+.card {
+    transition: all 0.4s ;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}

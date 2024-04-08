@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hawamahall {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1080/0*T9pb_87r-fpWgtlg.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    color: white;
+    overflow-y: scroll;
+    
+}
+
+.heading {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+.paragraph{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 60vw;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
